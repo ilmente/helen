@@ -1,0 +1,13 @@
+{
+  "name": "helen",
+  "version": "1.0.0",
+  "description": "Helen",
+  "main": "index.js",
+  "repository": "https://ilmente@github.com/ilmente/helen.git",
+  "author": "ilmente <alessandro@ilmente.it>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "init": "node ./index"
+  }
+}
