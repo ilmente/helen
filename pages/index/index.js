@@ -5,6 +5,7 @@ import Main from '../../layouts/main'
 export default () => {
     const [my, setMy] = useState('')
     const [message, setMessage] = useState('')
+
     const onChange = ({ target }) => setMy(target.value)
     const onSubmit = (e) => {
         e.preventDefault()
