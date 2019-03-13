@@ -1,0 +1,15 @@
+.figure {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    text-align: center;
+}
+
+.image {
+    max-width: 100%;
+}
+
+.caption {
+    padding: 5px;
+}
