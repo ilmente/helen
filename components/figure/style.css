@@ -1,7 +1,7 @@
 .figure {
     display: block;
     margin: 0;
-    padding: 0;
+    padding: 12px;
     background-color: #eee;
     text-align: center;
 }
@@ -17,5 +17,5 @@
 }
 
 .caption {
-    padding: 5px;
+    padding-top: 8px;
 }
