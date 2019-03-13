@@ -8,6 +8,14 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "init": "node ./index"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "next build && next export"
+  },
+  "dependencies": {
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
   }
 }
