@@ -1,7 +1,6 @@
 const withCSS = require('@zeit/next-css')
 
 module.exports = withCSS({
-    distDir: 'build',
     cssModules: true,
     env: {
         site: {
@@ -9,13 +8,7 @@ module.exports = withCSS({
             description: 'Bla bla bla'
         },
         auth: {
-            my: 'deer'
-        }
-    },
-    exportPathMap: async () => {
-        return {
-            '/': { page: '/' },
-            '/baba': { page: '/baba' }
+            password: 'baubau'
         }
     }
 })

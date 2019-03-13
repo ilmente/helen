@@ -15,6 +15,7 @@ input[type=text] {
     outline: none;
     font: inherit;
     color: inherit;
+    width: 80px;
 }
 
 button {
@@ -30,6 +31,7 @@ button {
 }
 
 main {
-    margin: auto;
+    margin: 0 auto 0 auto;
+    padding: 100px 10px 50px 10px;
     max-width: 760px;
 }

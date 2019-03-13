@@ -19,7 +19,7 @@ export default ({ src, caption }) => {
 
     return (
         <figure className={css.figure}>
-            <img src={source} className={css.image} />
+            <img src={source} className={`${css.image} ${isLoaded ? css.isLoaded : ''}`} />
             <Loader visible={!isLoaded} />
             <figcaption className={css.caption}>
                 <em>{caption}</em>

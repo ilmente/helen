@@ -8,6 +8,12 @@
 
 .image {
     max-width: 100%;
+    opacity: 0;
+}
+
+.isLoaded {
+    opacity: 1;
+    transition: 500ms opacity;
 }
 
 .caption {
