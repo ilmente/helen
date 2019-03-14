@@ -14,6 +14,7 @@ export default ({ title, children }) => {
                 <meta name="robots" content="noindex, nofollow" />
                 <meta name="title" content={name} />
                 <meta name="description" content={process.env.site.description} />
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i,700"/>
                 <title>{name}</title>
             </Head>
             <main>{children}</main>
