@@ -15,13 +15,13 @@ export default ({ password }) => {
         }
 
         setMessage('Yep!')
-        Router.push('/baba')
+        Router.push({ pathname: '/baba', query: { dog: value } })
     }
 
     return (
-        <form onSubmit={onSubmit}>
+        <form onSubmit={onSubmit} action="/baba">
             <p>
-                The dog does <input type="text" value={value} onChange={onChange} />
+                Italian dogs 🐶 do <input type="text" value={value} onChange={onChange} maxLength="6" name="dog" />
                 <button>&raquo;</button>
             </p>
             <p>{message}</p>
