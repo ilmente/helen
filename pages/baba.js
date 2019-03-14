@@ -2,7 +2,7 @@ import { withRouter } from 'next/router'
 import Layout from '../layouts/main'
 import Figure from '../components/figure'
 import Gallery from '../components/gallery'
-import Nope from './_error'
+import Nope from './nope'
 
 export default withRouter(({ router }) => {
     const isAuthorized = !!router.query.dog
