@@ -10,11 +10,5 @@ module.exports = withCSS({
         auth: {
             password: 'baubau'
         }
-    },
-    exportPathMap: async function (defaultPathMap) {
-        return {
-            '/': { page: '/' },
-            '/baba': { page: '/baba', query: { name: 'dog' } }
-        }
     }
 })
