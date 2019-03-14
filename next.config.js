@@ -5,7 +5,7 @@ module.exports = withCSS({
     env: {
         site: {
             name: 'Helen ♥️ 27',
-            description: 'Helen turns 27. Oh my deer, she is so old..'
+            description: 'Helen turns 27. Oh my deer, she is so old...'
         },
         auth: {
             password: 'baubau'
