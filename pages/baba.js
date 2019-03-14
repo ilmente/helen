@@ -10,7 +10,7 @@ export default withRouter(({ router }) => {
 
     return isAuthorized ? (
         <Layout title="Baba">
-            <h1>Baba</h1>
+            <h1>Hello baba!</h1>
             <Figure image="test" caption='test' />
             <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
