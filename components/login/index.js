@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Router from 'next/router'
 
-const defaultMessage = 'Complete the following sentence with the proper call 🙊 (x2 times).'
+const defaultMessage = 'Complete the following sentence with the proper animal call 🙊 (x2 times).'
 const successMessage = 'Yep! Wait for it... 😘'
 const errorMessages = [
     'Not really... 🤔',
@@ -9,7 +9,7 @@ const errorMessages = [
     'Don\'t you remember? 😱',
     'I don\'t think so. 💩',
     'C\'mon! 😜',
-    'NOOOOOOOOOOOOOOOOOOOOO! No. 😈'
+    'NOOOOOOOOOOOOOO! No. 😈'
 ]
 
 const getErrorMessage = () => errorMessages[Math.floor(Math.random() * errorMessages.length)]
@@ -35,7 +35,7 @@ export default ({ password }) => {
         <form onSubmit={onSubmit} action="/baba">
             <p>{message}</p>
             <p>
-                Italian dogs 🐶 do <input type="text" value={value} onChange={onChange} maxLength="6" name="dog" />
+                Italian dogs 🐶 do <input type="text" value={value} onChange={onChange} maxLength="6" name="dog" autoComplete="off" />
                 <button>&raquo;</button>
             </p>
         </form>

@@ -14,6 +14,12 @@ main {
     max-width: 620px;
 }
 
+footer {
+    margin: 12px 0 12px 0;
+    font-size: 14px;
+    color: #bbb;
+}
+
 p {
     margin: 24px 0;
 }
