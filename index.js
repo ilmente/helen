@@ -1,1 +1,1 @@
-console.log('Init works for Helen!');
+console.log('Happy birthday Helen!');
