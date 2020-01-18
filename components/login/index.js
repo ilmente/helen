@@ -22,13 +22,15 @@ export default ({ password }) => {
     const onSubmit = (e) => {
         e.preventDefault()
 
-        if (value != password) {
-            setMessage(getErrorMessage())
-            return
-        }
+        setTimeout(() => {
+            if (value != password) {
+                setMessage(getErrorMessage())
+                return
+            }
 
-        setMessage(successMessage)
-        Router.push({ pathname: '/baba', query: { dog: value } })
+            setMessage(successMessage)
+            Router.push({ pathname: '/baba', query: { dog: value } })
+        })
     }
 
     return (
